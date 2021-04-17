@@ -22,7 +22,8 @@
             android:src="@drawable/ic_baseline_arrow_back_ios_24"
             android:background="@android:color/transparent"
             android:layout_weight="1"
-            android:padding="8dp"/>
+            android:padding="8dp"
+            android:onClick="back_button_Click"/>
 
         <EditText
             android:id="@+id/Search_EditText"
@@ -41,7 +42,8 @@
             android:src="@drawable/ic_baseline_search_24"
             android:background="@android:color/transparent"
             android:layout_weight="1"
-            android:padding="8dp"/>
+            android:padding="8dp"
+            android:onClick="search_button_Click"/>
 
     </LinearLayout>
 
